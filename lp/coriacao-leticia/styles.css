@@ -33,7 +33,14 @@
     justify-content: center;
     align-items: center;
 }
+.containerHero {
+    width: 80%;
+}
 @media (max-width: 600px) {
+    .containerHero {
+        width: 90%;
+        text-align: center;
+    }
     .headersuperior p {
         font-size: 14px;
     }
@@ -204,8 +211,8 @@
 }
 .pfindoCocria {
     font-size:18px;
-    font-weight: 400;
-    color: white;
+    font-weight: 500;
+    color: rgb(192, 66, 7);
     margin-bottom: 20px;
 }
 .btn {
@@ -295,8 +302,8 @@
     border-radius: 20px;
 }
 #secondDivKairah .logok {
-    margin-top: 100px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     width: 30%;
 }
 .pLogo {
@@ -306,18 +313,18 @@
 }
 .sub {
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     width: 80%;
     font-size: 15px;
     color: #AA6610;
 }
 .marinafoto {
     border-radius: 20px;
-    width: 80%;
-    margin-bottom: 50px;
+    width: 300px;
+    margin-bottom: 10px;
 }
 .Preco {
-    font-size: 100px;
+    font-size: 60px;
     width: 60%;
     font-weight: 900;
     color: white;
@@ -327,7 +334,7 @@
     margin-top: 10px;
     font-size: 19px;
     color: white;
-    margin-bottom: 20px ;
+    margin-bottom: 10px ;
 }
 .pPreco D {
     font-weight: 900;
@@ -341,7 +348,7 @@
     border-radius: 20px;
     border: none; 
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     box-shadow: 2px 2px 20px 4px #D9D9D2;
  }
  .btnBranco a  {
@@ -388,11 +395,11 @@
     width: 80%;
 }
 .teste{
-    margin-top: 20px;
+    margin-top: 30px;
     width: 50%;
 }
 .btnFinal {
-    margin-top: 10px;
+    margin-top: 40px;
     margin-bottom: 10px;
     width: 40%;
     height: 50px;
